@@ -1,0 +1,186 @@
+:root{
+    --color1:#030722;
+    --color2: #fff;
+    --color3: #e9b637;
+    --color4: #000;
+    --color5: #131248;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+/* header */
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color1);
+    padding: 5px;
+   
+
+}
+.headerbleu{
+    margin: 5px;
+    padding: 5px;  
+}
+.fa-solid{
+    color: var(--color3);
+}
+.localisation{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:-500px;
+    top: 10px;
+}
+.hour-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -8px;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -400px;
+    top: -24px;
+}
+p{
+    font-weight: bold;
+    font-size: 10px;
+    color: var(--color2);
+}
+.reseau-sociaux{
+    color: var(--color2);
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -700px;
+    top: -40px;
+    letter-spacing: 10px;
+
+}
+/* section */
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+    
+    /* padding: 10px;
+    margin: 5px;
+     */
+}
+.menu{
+   margin: 30px;
+}
+.logo{
+    position: relative;
+    right: 200px;
+    bottom: -30px;
+}
+span{
+    color:var(--color5) ;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -6px;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.carre{
+    color: var(--color3);
+}
+.menu li .active{
+        background-color: var(--color3);
+        padding: 5px 5px;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: bold;
+    font-size: 12px;
+}
+li:hover{
+    background-color: var(--color3);
+
+}
+/* section image */
+
+
+.image{
+    width: 50px;
+    height: 1px;
+    
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -5100px;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    /* position: relative;
+    top: -20px; */
+}
+.text p{
+    color: var(--color1);
+    border: 1px solid red;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    
+}
+.paragraphe{
+    display: flex;
+    margin: 30px;
+}
+/* footer */
+h4{
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--color2);
+    position: relative;
+    top: -30px;
+    
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    position: relative;
+    bottom: -5100px;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    
+
+}
+.dernier{
+    display: flex;
+    position: relative;
+    bottom: -100px;
+    justify-content: space-between;
+}
